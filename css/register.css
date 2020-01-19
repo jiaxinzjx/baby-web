@@ -1,0 +1,29 @@
+*,body{
+	margin: 0;
+	padding: 0;
+	
+}
+.right{
+	float: right;
+}
+#nav_body{
+	/*position: fixed;
+	top: 0px;*/
+	width: 100%;
+	height: 50px;
+	/*background: rgba(255,255,255,0.5);*/
+/*	opacity: 0.3;*/
+	/*display: none;*/
+}
+input[type="text"],input[type="password"],select:optional{
+	height: 50px;
+	margin-top: 20px;
+}
+span{
+	position: relative;
+	top:40px;
+	color:red;
+}
+
+
+

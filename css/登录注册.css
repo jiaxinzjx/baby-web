@@ -1,0 +1,114 @@
+/*body{
+	margin-top: 5%;
+}*/
+*,body{
+	margin: 0;
+	padding: 0;
+}
+
+input[type="text"],input[type="password"],select:optional{
+	height: 50px;
+	margin-top: 20px;
+}
+span{
+	position: relative;
+	top:16px;
+	color:red;
+}
+#welcome{
+	width: 100%;
+	height: 900px;
+	border: black solid 1px;
+	background: url(../img/831c99500f93d60c602a0ada9d8c8429.jpg);
+	padding-top: 100px;
+	padding-left:100px;
+	/*margin-left: 80px;*/
+	/*z-index: inherit;*/
+	position: relative;
+	/*opacity: 0.5;*/
+}
+#myTab li a{
+	font-size: 23px;
+	font-family: "幼圆";
+	font-weight: bold;
+	color: #555555;
+}
+#myTab li a:hover{
+	color: #5bb85d;
+}
+button{
+	margin-top: 20px;
+}
+h5{
+	color: #555555;
+	margin-top: 50px;
+}
+#conn{
+	margin: 50px 25px;
+}
+#bgt{
+	position: absolute;
+	left: 45%;
+	bottom: 100px;
+}
+#footer{
+	width: 100%;
+	height: 460px;
+	background: #2e2e2e;
+	padding-top: 50px;
+	margin-top: 150px;
+	position: relative;
+	
+
+}
+
+#foot dl{
+	float: left;
+	width: 120px;
+	height: 180px;
+	/*border-right: #FDFDFD solid 2px;*/
+	margin: 20px;
+	color: #b3b3b3;
+}
+#foot dl dd{
+	margin-top: 10px;
+}
+#foot dl dd a{
+	color: #b3b3b3;
+}
+#foot dl dd a:hover{
+	color: #5bb85d;
+	text-decoration: none;
+}
+#green{
+	color: #5bb85d;
+}
+
+#foot_two{
+	width: 100%;
+	height: 40px;
+	background: #2e2e2e;
+	line-height: 40px;
+	position: absolute;
+	top:92%;
+	
+}
+#foot_two p{
+	text-align: center;
+	color: #b3b3b3;
+}
+#foot_two a{
+	color: #b3b3b3;  
+	margin: 8px;
+}
+#foot_two a:hover{
+	color: whitesmoke;
+	text-decoration: none;
+}
+#foot_three p{
+	text-align: center;
+	color: #787876;
+}
+#foot_three{
+	margin-top: 30px;
+}

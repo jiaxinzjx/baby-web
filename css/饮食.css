@@ -1,0 +1,124 @@
+*,body{
+	margin: 0;
+	padding: 0;
+}
+.right{
+	float: right;
+}
+#nav_body{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	/*background: rgba(255,255,255,0.5);*/
+/*	opacity: 0.3;*/
+	/*display: none;*/
+}
+.mokuai{
+	width: 100%;
+	height: 80%;
+	/*border: black solid 1px;*/
+	background: rgba(255,255,255,0.5);
+	margin-top: 8%;
+}
+.swiper-container {
+      /*width: 100%;
+      height: 100%;*/
+      position: relative;
+      top: 70px;
+
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+		background-size: cover;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+/*.swiper-slide img{
+	width: 80%;
+	height: 30%;
+}*/
+.mokuai .mean_box{
+	width: 100%;
+	height: 420px;
+	/*border: black solid 1px;*/
+	padding: 20px;
+	background: rgba(255,255,255,0.5);
+}
+.mean{
+	width: 670px;
+	height: 230px;
+	border: #5bb85d solid 1px;
+	border-radius: 5px;
+	padding: 30px 19px;
+	margin-bottom: 30px;
+}
+.mean h4{
+	font-size: 22px;
+	line-height: 35px;
+	text-indent: 2em;
+	margin-bottom: 70px;
+}
+#food{
+	margin-top: 60px;
+}
+#food ul li{
+	list-style: none;
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	margin: 10px 20px 10px 20px;
+	/*border: black solid 1px;*/
+}
+#food ul li img{
+	/*border: #d3d3d3 solid 1px;*/
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+
+.lianjie ul{
+	margin-top: 20px;
+		padding: 20px 0px 10px 70px;
+		display: inline-block;
+		/*border-top: #5bb85d solid 3px;*/
+}
+.lianjie ul li{
+	/*list-style: none;*/
+	font-size: 17px;
+	padding: 8px 10px;
+
+	
+}
+.lianjie ul li a{
+	text-decoration: none;
+	color: #999999;
+}
+.lianjie ul li a:hover{
+	color: #008047;
+	
+}
+
+#form_loc{
+	/*border-top: #5bb85d solid 2px;*/
+	padding: 30px 10px;
+}
+#form_loc select{
+	width: 100%;
+	height: 50px;
+	margin: 20px 0px;
+
+}

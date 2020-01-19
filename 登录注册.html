@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>注册页面</title>
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" href="css/登录注册.css" />
+		<script type="text/javascript" src="jquery-1.10.2.min.js" ></script>
+		<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/登录注册.js" ></script>
+		
+	</head>
+
+	<body>
+		
+		<nav id="nav_body" class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container-fluid container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">返回首页</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">注册/登录</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>	
+<div class="container">
+		<div id="welcome">
+			<div class="col-md-5">
+
+<ul id="myTab" class="nav nav-tabs">
+    <li class="active"><a href="#home" data-toggle="tab">
+            登录已有账号</a></li>
+    <li><a href="#ios" data-toggle="tab">注册新用户</a></li>
+</ul>
+<div id="myTabContent" class="tab-content ">
+    <div class="tab-pane fade in active" id="home">
+        <form class="form-horizontal" role="form">
+					<div class="form-group">
+						<!--<label for="lastname" class="col-sm-2 control-label">昵称</label>-->
+						<div>
+							<input type="text" class="form-control" id="lastname" placeholder="请输入用户名/昵称">
+						</div>
+						<div>
+							<span id="name_sp"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<div>
+							<input type="password" class="form-control" id="pwd" placeholder="请输入密码">
+						</div>
+						<div>
+							<span id="pwd_sp"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<div>
+							<button type="button" class="btn btn-success btn-lg btn-block">确认登录</button>
+						</div>
+					</div>
+					<hr />
+					<h5 align="center">第三方登录</h5>
+					<i class="fa fa-weibo" id="conn" style="font-size: 50px;color: #a6a6a6"></i> 
+					<i class="fa fa-weixin" id="conn" style="font-size: 50px;color: #a6a6a6"></i>
+					<i class="fa fa-qq" id="conn" style="font-size: 50px;color: #a6a6a6"></i>
+				</form>
+    </div>
+    <div class="tab-pane fade" id="ios">
+         <form class="form-horizontal" role="form">
+					<div class="form-group">
+						<div>
+							<input type="text" class="form-control" id="telephone" placeholder="请输入手机号码">
+						</div>
+						<div>
+							<span id="tel_sp"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<!--<label for="lastname" class="col-sm-2 control-label">昵称</label>-->
+						<div>
+							<input type="text" class="form-control" id="lastname" placeholder="请输入用户名/昵称">
+						</div>
+						<div>
+							<span id="name_sp"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<div>
+							<input type="password" class="form-control" id="pwd" placeholder="请设置密码">
+						</div>
+						<div>
+							<span id="pwd_sp"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<div>
+							<!--<label for="name">选择列表</label>-->
+							<select class="form-control" id="time">
+								<option value="0" selected="selected" disabled="disabled">请选择您所在时期</option>
+								<option value="1">备孕中</option>
+								<option value="2">怀孕中</option>
+								<option value="3">有宝宝</option>
+								<option value="4">无宝宝</option>
+							</select>
+						</div>
+						<div>
+							<span id="time_sp"></span>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<div class="checkbox">
+								<label>
+		          				<input type="checkbox">我已同意用户服务协议
+		        				</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div>
+							<button type="button" class="btn btn-success btn-lg btn-block">提交注册</button>
+						</div>
+					</div>
+				</form>
+    </div>
+    <div class="tab-pane fade" id="jmeter">
+        <p>jMeter 是一款开源的测试软件。它是 100% 纯 Java 应用程序，用于负载和性能测试。</p>
+    </div>
+    <div class="tab-pane fade" id="ejb">
+        <p>Enterprise Java Beans（EJB）是一个创建高度可扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
+        </p>
+    </div>
+</div>
+</div>
+<div class="col-md-7" id="bgt">
+	
+</div>
+</div>
+		</div>
+		<footer>
+				<div id="footer">
+				<div class="container">
+					<div id="foot">
+						<dl class="">
+							<dt><i class="fa fa-star"></i> 新手指南</dt>
+							<dd>
+								<a target="_blank" href="">• 注册登录</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 抢购商品</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 购物车操作</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 下单支付</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt><i class="fa fa-file-text"></i> 常见问题</dt>
+							<dd>
+								<a target="_blank" href="">• 热门常见问题</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 退货/退款相关</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 发货相关</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 平台交易规则</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt><i class="fa fa-user"></i> 账号管理</dt>
+							<dd>
+								<a target="_blank" href="">• 会员注册</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 密码管理</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 投诉举报</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 不良信息处理</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt><i class="fa fa-yen"></i> 支付相关</dt>
+							<dd>
+								<a target="_blank" href="">• 在线支付</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 余额支付</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt><i class="fa fa-car"></i> 配送相关</dt>
+							<dd>
+								<a target="_blank" href="">• 配送说明</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 物流信息</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 验货签收</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt><i class="fa fa-smile-o"></i> 消费者保障</dt>
+							<dd>
+								<a target="_blank" href="">• 退货政策</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 退货流程</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 退货方式和时效</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 交易安全保障</a>
+							</dd>
+							<dd>
+								<a target="_blank" href="">• 保证金制度</a>
+							</dd>
+						</dl>
+						<dl>
+
+							<dt><i class="fa fa-heart"></i> 收藏关注</dt>
+							<dd>
+								<a target="_blank" href=""><i class="fa fa-qq" style="font-size: 24px;color: #a6a6a6"></i> QQ</a>
+							</dd>
+							<dd>
+								<a target="_blank" href=""><i class="fa fa-weixin" style="font-size: 24px;color: #a6a6a6"></i> 微信</a>
+							</dd>
+							<dd>
+								<a target="_blank" href=""><i class="fa fa-weibo" style="font-size: 24px;color: #a6a6a6"></i> 微博</a>
+							</dd>
+
+						</dl>
+					</div>
+
+				</div>
+				<div id="foot_two">
+					<div class="container">
+						<p>
+							<a href="">关于我们</a>|
+							<a href="">网站介绍</a>|
+							<a href="">隐私政策</a>|
+							<a href="">合作媒体</a>|
+							<a href="">投稿指南</a>|
+							<a href="">使用条款</a>|
+							<a href="">网站律师</a>|
+							<a href="">联系我们</a>|
+							<a href="">招聘精英</a>|
+							<a href="">帮助中心</a>|
+							<a href="">意见箱</a>|
+							<a href="">用户体验提升计划</a>
+						</p>
+
+					</div>
+				</div>
+</div>
+			</footer>
+			<div class="container" id="foot_three">
+				<p>浙ICP备14025287号 | 食品流通许可证：SP3301041510054925 | 出版物经营许可证：新出发零字第00086号 | 知识产权 | 浙公网安备 33010402000616号</p>
+				<p>© 2014-2019 杭州贝购科技有限公司 All Rights Reserved. 客服热线：0571-10107788</p>
+			</div>
+	</body>
+
+</html>

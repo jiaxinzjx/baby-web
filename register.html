@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>注册页面</title>
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<script type="text/javascript" src="jquery-1.10.2.min.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+		
+	</head>
+
+	<body>
+		<nav id="nav_body" class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container-fluid container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">返回首页</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">注册</a>
+						</li>
+						<li>
+							<a href="#">登录</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			
+			<div class="col-sm-5 col-md-5">
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<div class="col-sm-12">
+							<!--<h2>新用户注册</h2>-->
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-8">
+							<input type="text" class="form-control" id="telephone" placeholder="请输入手机号码">
+						</div>
+						<div class="col-sm-4">
+							<span id="tel_sp"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<!--<label for="lastname" class="col-sm-2 control-label">昵称</label>-->
+						<div class="col-sm-8">
+							<input type="text" class="form-control" id="lastname" placeholder="请输入用户名/昵称">
+						</div>
+						<div class="col-sm-4">
+							<span id="name_sp"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-8">
+							<input type="password" class="form-control" id="pwd" placeholder="请设置密码">
+						</div>
+						<div class="col-sm-4">
+							<span id="pwd_sp"></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-8">
+							<!--<label for="name">选择列表</label>-->
+							<select class="form-control" id="time">
+								<option value="0" selected="selected" disabled="disabled">请选择您所在时期</option>
+								<option value="1">备孕中</option>
+								<option value="2">怀孕中</option>
+								<option value="3">有宝宝</option>
+								<option value="4">无宝宝</option>
+							</select>
+						</div>
+						<div class="col-sm-4">
+							<span id="time_sp"></span>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<div class="checkbox">
+								<label>
+		          				<input type="checkbox">我已同意用户服务协议
+		        				</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-8">
+							<button type="button" class="btn btn-success btn-lg btn-block">提交注册</button>
+						</div>
+						<div class="col-sm-4">
+							
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-7 col-md-7">
+				 <img src="img/Baby_006010.jpg" /> 
+			</div>
+
+		</div>
+		
+	</body>
+
+</html>
